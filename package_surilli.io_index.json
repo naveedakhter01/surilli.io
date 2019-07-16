@@ -66,43 +66,40 @@
           ],
           "toolsDependencies": [
             {
-              "packager": "Surilli",
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "arduino",
               "name": "bossac",
-              "version": "1.4.0"
-            }
-          ]
-        }
-      ],
-      "tools": [
-        {
-          "name": "bossac",
-          "version": "1.4.0",
-          "systems": [
-            {
-              "host": "i686-mingw32",
-              "url": "https://surilli-io.github.io/arduino-board-index/samd-tools/bossac/bossac-1.4.0-win.tar.bz2",
-              "archiveFileName": "bossac-1.4.0-win.tar.bz2",
-              "checksum": "SHA-256:6D014CCA256CA79836D6E35988FEF2E9A0E4E39E645F40218ED5DA327A6508AF",
-              "size": "309293"
+              "version": "1.7.0"
             },
             {
-              "host": "x86_64-pc-linux-gnu",
-              "url": "https://surilli-io.github.io/arduino-board-index/samd-tools/bossac/bossac-1.4.0-linux64.tar.bz2",
-              "archiveFileName": "bossac-1.4.0-linux64.tar.bz2",
-              "checksum": "SHA-256:BB8F398BF84C5F31880FE9A2C7AE0174592516CE4821B49744B426AA968ADA10",
-              "size": "225696"
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.9.0-arduino6-static"
             },
             {
-              "host": "x86_64-apple-darwin",
-              "url": "https://surilli-io.github.io/arduino-board-index/samd-tools/bossac/bossac-1.4.0-osx.tar.bz2",
-              "archiveFileName": "bossac-1.4.0-osx.tar.bz2",
-              "checksum": "SHA-256:D0F225846D7BC80A74324D783CDB35C42A7F85EAD73CC016C0CC767B0AA5E81C",
-              "size": "74461"
-            }
-          ]
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.1.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.2.0"
         }
       ]
-    },
+}
+],
+},
+      
     {
       "maintainer": "Silverback",
       "help": {
